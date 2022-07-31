@@ -1,7 +1,7 @@
 *{
 
     font-family: 'Times New Roman', Times, sans-serif;
-    background: rgb(73, 94, 211);
+    background: rgb(72, 97, 235);
 }
 
 
@@ -30,6 +30,7 @@ border: 5px solid rgba(22, 4, 184, 0.925);
 
 }
 
+
 h2 {
     text-align: center;
     color: white;
@@ -54,9 +55,12 @@ p {
 
 img {
 
-    background-color: rgba(22, 4, 184, 0.925);
-    margin: 1%;
-    padding: 2mm;    
+    height: 250px;
+    width: auto;
+    margin-right:auto;
+    margin-left: auto;
+    margin: auto;
+    padding: 1%;
 }
 
 
@@ -66,7 +70,6 @@ img {
     color: white;
     font-size: 25px;
     text-align: center;
-    margin: 1%;
     
 }
 
@@ -77,7 +80,6 @@ ul  {
     display: inline-block;
     text-align: left;
     color: white;
-    
 }
 
 ol {
@@ -88,31 +90,3 @@ ol {
     color: white;
     list-style-position: inside;
 }
-
-
-.circleBase {
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 65%; 
-    z-index: 1;  
-}
-
-.circleleft {
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    right: 74%; 
-    z-index: 1;  
-}
-
-.type3 {
-    width: 400px;
-    height: 400px;
-    background: rgb(68, 151, 230);
-    border: 3px solid rgba(22, 4, 184, 0.925);
-    margin: 10%;
-    margin-top: 1%; 
-    margin-right: 1%;
-             
-    }

@@ -26,7 +26,7 @@ background: rgb(68, 151, 230);
 text-align: center;
 padding: 2%;
 margin: 2%;
-border: 5px solid rgba(22, 4, 184, 0.925);
+border: 3px solid rgba(22, 4, 184, 0.925);
 
 }
 
@@ -60,7 +60,8 @@ img {
     margin-right:auto;
     margin-left: auto;
     margin: auto;
-    padding: 1%;
+    padding: 2mm;
+    background-color: rgb(22, 4, 184, 0.925);
 }
 
 

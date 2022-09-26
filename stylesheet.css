@@ -2,6 +2,7 @@
 
     font-family: 'Times New Roman', Times, sans-serif;
     background: rgb(73, 94, 211);
+    
 }
 
 
@@ -26,7 +27,7 @@ background: rgb(68, 151, 230);
 text-align: center;
 padding: 2%;
 margin: 2%;
-border: 5px solid rgba(22, 4, 184, 0.925);
+border: 3px solid rgba(22, 4, 184, 0.925);
 
 }
 
@@ -56,7 +57,8 @@ img {
 
     background-color: rgba(22, 4, 184, 0.925);
     margin: 1%;
-    padding: 2mm;    
+    padding: 2mm;   
+
 }
 
 
@@ -66,7 +68,8 @@ img {
     color: white;
     font-size: 25px;
     text-align: center;
-    margin: 1%;
+    z-index: 1;
+    
     
 }
 
@@ -77,42 +80,39 @@ ul  {
     display: inline-block;
     text-align: left;
     color: white;
-    
-}
-
-ol {
-
-
-    display: inline-block;
-    text-align: center;
-    color: white;
-    list-style-position: inside;
+    z-index: 1;
 }
 
 
 .circleBase {
     border-radius: 50%;
+    z-index: 1; 
+    padding: 10%;
     position: absolute;
-    top: 50%;
-    left: 65%; 
-    z-index: 1;  
+    left: 45%;
+    top: 35%;
+    opacity: 15%;
 }
 
 .circleleft {
     border-radius: 50%;
+    z-index: 1;
+    padding: 10%;
     position: absolute;
-    top: 50%;
-    right: 74%; 
-    z-index: 1;  
+    right: 45%;
+    top: 15%;
+    opacity: 30%;
 }
 
+
 .type3 {
-    width: 400px;
-    height: 400px;
-    background: rgb(68, 151, 230);
-    border: 3px solid rgba(22, 4, 184, 0.925);
+    width: 350px;
+    height: 350px;
+    background: rgb(138, 144, 177);
+    border: 3px solid rgb(34, 61, 214);
     margin: 10%;
-    margin-top: 1%; 
-    margin-right: 1%;
+    margin-top: 10%; 
+    margin-bottom: 30%;
+    
              
     }
